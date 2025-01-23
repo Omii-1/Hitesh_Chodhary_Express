@@ -6,11 +6,12 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "server": "nodemon index.js"
   },
   "author": "om juvatkar",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2"
   },
   "devDependencies": {
