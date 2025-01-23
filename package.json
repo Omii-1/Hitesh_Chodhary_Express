@@ -1,0 +1,19 @@
+{
+  "name": "learn-express",
+  "version": "1.0.0",
+  "description": "simple manager for different tea",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "om juvatkar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
